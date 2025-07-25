@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-orange-50 via-white to-pink-50 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-orange-50 via-white to-pink-50 relative overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-hero-pattern opacity-30"></div>
       

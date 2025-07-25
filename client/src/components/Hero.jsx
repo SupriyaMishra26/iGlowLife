@@ -26,7 +26,7 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-6">
+            <div className="flex flex-col sm:flex-row gap-6 mb-12">
               <button className="btn-primary relative group">
                 <span className="relative z-10 flex items-center justify-center">
                 Start Your Journey
@@ -44,6 +44,22 @@ export default function Hero() {
                   </svg>
                 </span>
               </button>
+            </div>
+
+            {/* Stats Section */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-gray-200">
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold gradient-text mb-2">500+</div>
+                <div className="text-gray-600 font-medium">Students Trained</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold gradient-text mb-2">95%</div>
+                <div className="text-gray-600 font-medium">Job Placement</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold gradient-text mb-2">50+</div>
+                <div className="text-gray-600 font-medium">Expert Trainers</div>
+              </div>
             </div>
 
             {/* Stats */}

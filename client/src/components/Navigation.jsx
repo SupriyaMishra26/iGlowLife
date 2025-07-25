@@ -24,7 +24,7 @@ export default function Navigation() {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-white/95 backdrop-blur-sm'
+      scrolled ? 'bg-white shadow-sm' : 'bg-white'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
@@ -70,7 +70,7 @@ export default function Navigation() {
           </div>
           
           <div className="hidden md:block">
-            <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-2 rounded-lg hover:from-orange-600 hover:to-pink-600 transition-all duration-200 font-medium">
+            <button className="bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium">
               Get Started
             </button>
           </div>
@@ -120,7 +120,7 @@ export default function Navigation() {
             >
               Contact
             </button>
-            <button className="w-full text-left bg-gradient-to-r from-orange-500 to-pink-500 text-white px-3 py-2 rounded-lg mt-4">
+            <button className="w-full text-left bg-gray-900 text-white px-3 py-2 rounded-lg mt-4">
               Get Started
             </button>
           </div>

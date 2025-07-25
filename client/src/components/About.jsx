@@ -90,20 +90,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
               </div>
               
-              {/* Floating Stats Cards */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100 z-20">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-gray-900 mb-1">500+</div>
-                  <div className="text-sm text-gray-600">Students Trained</div>
-                </div>
-              </div>
-              
-              <div className="absolute -top-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100 z-20">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-gray-900 mb-1">95%</div>
-                  <div className="text-sm text-gray-600">Placement Rate</div>
-                </div>
-              </div>
+
               
               {/* Background decoration */}
               <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-orange-200 to-pink-200 rounded-3xl -z-10"></div>
@@ -111,18 +98,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Bottom CTA Section */}
-        <div className="text-center bg-gradient-to-r from-orange-50 to-pink-50 rounded-3xl p-12 fade-in">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Ready to Start Your Professional Journey?
-          </h3>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join thousands of successful professionals who started their career transformation with iGlowLife
-          </p>
-          <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-            Explore Programs
-          </button>
-        </div>
+
       </div>
     </section>
   );

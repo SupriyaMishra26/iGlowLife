@@ -119,16 +119,7 @@ export default function Benefits() {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="text-center">
-          <div className="inline-block bg-white rounded-3xl shadow-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Transform Your Career?</h3>
-            <p className="text-gray-600 mb-6">Join thousands of successful students who have launched their dream careers</p>
-            <button className="btn-primary bg-brand-gradient hover:shadow-orange-300 transition-all duration-300 hover:scale-105 px-8 py-4 text-lg font-semibold">
-              Start Your Journey Today
-            </button>
-          </div>
-        </div>
+
       </div>
     </section>
   );

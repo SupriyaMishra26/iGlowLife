@@ -1,64 +1,127 @@
 export default function About() {
   return (
-    <section id="about" className="section-padding bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50 relative overflow-hidden">
+    <section id="about" className="section-padding bg-white relative overflow-hidden">
       {/* Background decorative elements */}
-      <div className="absolute top-10 right-10 w-32 h-32 bg-gradient-to-br from-orange-200 to-pink-200 rounded-full opacity-30 blur-xl"></div>
-      <div className="absolute bottom-20 left-10 w-24 h-24 bg-gradient-to-br from-pink-200 to-purple-200 rounded-full opacity-30 blur-xl"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-50/50 via-pink-50/30 to-purple-50/50"></div>
+      <div className="absolute top-20 right-20 w-40 h-40 bg-gradient-to-br from-orange-200/20 to-pink-200/20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-32 left-20 w-32 h-32 bg-gradient-to-br from-pink-200/20 to-purple-200/20 rounded-full blur-3xl"></div>
       
-      <div className="container-max relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            About iGlowLife
+      <div className="container mx-auto max-w-7xl relative z-10">
+        {/* Header Section */}
+        <div className="text-center mb-20 fade-in">
+          <div className="inline-block px-6 py-2 bg-gradient-to-r from-orange-100 to-pink-100 rounded-full mb-6">
+            <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">About Us</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            Transforming <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Freshers</span> into 
+            <br className="hidden md:block" />Industry Leaders
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We're dedicated to transforming freshers into industry-ready professionals through 
-            comprehensive training and hands-on experience with real-world projects.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Bridge the gap between academic knowledge and industry requirements with our comprehensive training programs
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
-          <div>
-            <img
-              src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Training session"
-              className="w-full h-96 object-cover rounded-3xl shadow-2xl card-hover"
-            />
-          </div>
-          <div className="space-y-6">
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
-              Empowering the Next Generation of Professionals
-            </h3>
-            <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              At iGlowLife, we believe that every fresher has the potential to become an industry leader. 
-              Our comprehensive training programs are designed to bridge the gap between academic knowledge 
-              and industry requirements.
-            </p>
-            <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              We focus on practical learning, ensuring that our students not only understand theoretical 
-              concepts but can also apply them in real-world scenarios. Our experienced trainers guide 
-              students through their learning journey, providing mentorship and support every step of the way.
-            </p>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-4 group">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 bg-brand-gradient rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white font-bold text-lg sm:text-xl">✓</span>
+        {/* Main Content Grid */}
+        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center mb-20">
+          {/* Content Column */}
+          <div className="lg:col-span-7 space-y-8 fade-in">
+            <div className="space-y-6">
+              <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                Building Tomorrow's Professionals Today
+              </h3>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                At iGlowLife, we believe every fresher has untapped potential. Our mission is to unlock that potential 
+                through structured learning, real-world projects, and personalized mentorship that prepares you for 
+                industry challenges.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Our approach combines theoretical knowledge with practical application, ensuring our students don't 
+                just learn concepts—they master skills that make them valuable from day one.
+              </p>
+            </div>
+
+            {/* Key Features */}
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div className="group p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-white font-bold text-xl">🎯</span>
                 </div>
-                <span className="text-gray-700 font-semibold text-base sm:text-lg">Industry-aligned curriculum</span>
+                <h4 className="font-semibold text-gray-900 mb-2">Industry-Aligned Curriculum</h4>
+                <p className="text-gray-600 text-sm">Courses designed with current industry needs and future trends in mind</p>
               </div>
-              <div className="flex items-center space-x-4 group">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 bg-brand-gradient rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white font-bold text-lg sm:text-xl">✓</span>
+              
+              <div className="group p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300">
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-white font-bold text-xl">💼</span>
                 </div>
-                <span className="text-gray-700 font-semibold text-base sm:text-lg">Hands-on project experience</span>
+                <h4 className="font-semibold text-gray-900 mb-2">Real Project Experience</h4>
+                <p className="text-gray-600 text-sm">Work on actual projects that build your portfolio and confidence</p>
               </div>
-              <div className="flex items-center space-x-4 group">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 bg-brand-gradient rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white font-bold text-lg sm:text-xl">✓</span>
+              
+              <div className="group p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-white font-bold text-xl">👥</span>
                 </div>
-                <span className="text-gray-700 font-semibold text-base sm:text-lg">Career guidance and placement support</span>
+                <h4 className="font-semibold text-gray-900 mb-2">Personal Mentorship</h4>
+                <p className="text-gray-600 text-sm">One-on-one guidance from industry experts throughout your journey</p>
+              </div>
+              
+              <div className="group p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-green-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-white font-bold text-xl">🚀</span>
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Career Placement</h4>
+                <p className="text-gray-600 text-sm">Comprehensive job placement support and career guidance</p>
               </div>
             </div>
           </div>
+
+          {/* Image Column */}
+          <div className="lg:col-span-5 fade-in">
+            <div className="relative">
+              {/* Main Image */}
+              <div className="relative z-10">
+                <img
+                  src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Professional training session at iGlowLife"
+                  className="w-full h-[500px] object-cover rounded-3xl shadow-2xl"
+                />
+                {/* Overlay gradient for better text contrast */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
+              </div>
+              
+              {/* Floating Stats Cards */}
+              <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100 z-20">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-gray-900 mb-1">500+</div>
+                  <div className="text-sm text-gray-600">Students Trained</div>
+                </div>
+              </div>
+              
+              <div className="absolute -top-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100 z-20">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-gray-900 mb-1">95%</div>
+                  <div className="text-sm text-gray-600">Placement Rate</div>
+                </div>
+              </div>
+              
+              {/* Background decoration */}
+              <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-orange-200 to-pink-200 rounded-3xl -z-10"></div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom CTA Section */}
+        <div className="text-center bg-gradient-to-r from-orange-50 to-pink-50 rounded-3xl p-12 fade-in">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            Ready to Start Your Professional Journey?
+          </h3>
+          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+            Join thousands of successful professionals who started their career transformation with iGlowLife
+          </p>
+          <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+            Explore Programs
+          </button>
         </div>
       </div>
     </section>

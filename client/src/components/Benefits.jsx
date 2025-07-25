@@ -13,8 +13,8 @@ export default function Benefits() {
       icon: <Briefcase className="w-8 h-8" />,
       title: 'Real-World Projects',
       description: 'Work on actual projects for real companies and build a portfolio that impresses employers',
-      bgColor: 'bg-blue-50',
-      iconColor: 'text-blue-600'
+      bgColor: 'bg-orange-50',
+      iconColor: 'text-orange-600'
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -42,7 +42,7 @@ export default function Benefits() {
       title: 'Vibrant Community',
       description: 'Connect with like-minded peers and build lasting professional relationships',
       bgColor: 'bg-pink-50',
-      iconColor: 'text-pink-600'
+      iconColor: 'text-pink-500'
     },
     {
       icon: <Award className="w-8 h-8" />,

@@ -30,7 +30,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-primary">iGlowLife</h1>
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">iGlowLife</h1>
             </div>
           </div>
           
@@ -70,7 +70,7 @@ export default function Navigation() {
           </div>
           
           <div className="hidden md:block">
-            <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium">
+            <button className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-2 rounded-lg hover:from-orange-600 hover:to-pink-600 transition-all duration-200 font-medium">
               Get Started
             </button>
           </div>
@@ -120,7 +120,7 @@ export default function Navigation() {
             >
               Contact
             </button>
-            <button className="w-full text-left bg-primary text-white px-3 py-2 rounded-lg mt-4">
+            <button className="w-full text-left bg-gradient-to-r from-orange-500 to-pink-500 text-white px-3 py-2 rounded-lg mt-4">
               Get Started
             </button>
           </div>

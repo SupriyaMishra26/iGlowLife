@@ -7,6 +7,8 @@ This is a full-stack web application for iGlowLife, a platform focused on real p
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Frontend: React without TypeScript (JSX), Tailwind CSS for styling
+UI Design: Orange-to-pink gradient theme matching iGlowLife brand, minimal text approach, responsive design with cards and sliders
 
 ## System Architecture
 

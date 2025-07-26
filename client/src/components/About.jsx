@@ -12,11 +12,11 @@ export default function About() {
           <div className="inline-block px-6 py-2 bg-gradient-to-r from-orange-100 to-pink-100 rounded-full mb-6">
             <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">About Us</span>
           </div>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <h2 className="text-4xl md:text-2xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
             Transforming <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Freshers</span> into 
             <br className="hidden md:block" />Industry Leaders
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Bridge the gap between academic knowledge and industry requirements with our comprehensive training programs
           </p>
         </div>
@@ -26,17 +26,17 @@ export default function About() {
           {/* Content Column */}
           <div className="lg:col-span-7 space-y-8 fade-in">
             <div className="space-y-6">
-              <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+              <h3 className="text-3xl lg:text-2xl font-bold text-gray-900 leading-tight">
                 Building Tomorrow's Professionals Today
               </h3>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-md text-gray-600 leading-relaxed">
                 At iGlowLife, we believe every fresher has untapped potential. Our mission is to unlock that potential 
                 through structured learning, real-world projects, and personalized mentorship that prepares you for 
                 industry challenges.
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-md text-gray-600 leading-relaxed">
                 Our approach combines theoretical knowledge with practical application, ensuring our students don't 
-                just learn concepts—they master skills that make them valuable from day one.
+                just learn concepts,they master skills that make them valuable from day one.
               </p>
             </div>
 
@@ -66,13 +66,7 @@ export default function About() {
                 <p className="text-gray-600 text-sm">One-on-one guidance from industry experts throughout your journey</p>
               </div>
               
-              <div className="group p-6 bg-white/70 backdrop-blur-sm rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-green-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white font-bold text-xl">🚀</span>
-                </div>
-                <h4 className="font-semibold text-gray-900 mb-2">Career Placement</h4>
-                <p className="text-gray-600 text-sm">Comprehensive job placement support and career guidance</p>
-              </div>
+             
             </div>
           </div>
 

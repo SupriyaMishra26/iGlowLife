@@ -5,8 +5,8 @@ import About from '@/components/About';
 import Benefits from '@/components/Benefits';
 import Trainers from '@/components/Trainers';
 import HowItWorks from '@/components/HowItWorks';
-
-import CTA from '@/components/CTA';
+import Interest from '../components/Interest'
+// import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -43,8 +43,8 @@ export default function Home() {
       <Benefits />
       <Trainers />
       <HowItWorks />
-
-      <CTA />
+     <Interest/>
+      
       <Footer />
     </div>
   );

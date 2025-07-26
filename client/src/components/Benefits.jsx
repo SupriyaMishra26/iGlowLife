@@ -6,26 +6,26 @@ import {
   Heart, 
   Award 
 } from 'lucide-react';
-import learningImage from '@assets/image_1753455863505.png';
-import successImage from '@assets/image_1753455916676.png';
-import productivityImage from '@assets/image_1753455980191.png';
+// import learningImage from '@assets/image_1753455863505.png';
+// import successImage from '@assets/image_1753455916676.png';
+// import productivityImage from '@assets/image_1753455980191.png';
 
 export default function Benefits() {
   const mainFeatures = [
     {
-      image: learningImage,
+      image: "https://res.cloudinary.com/dbmjqp2dz/image/upload/v1753532557/c466e258-8778-449c-aa8d-9e2eb45993ae_icdxh2.jpg",
       title: 'Interactive Learning Experience',
       description: 'Engage with cutting-edge technology and hands-on projects that prepare you for real-world challenges.',
       bgGradient: 'from-blue-500 to-cyan-500'
     },
     {
-      image: successImage,
-      title: 'Your Success Journey',
-      description: 'Join thousands who have transformed their careers through our proven mentorship programs.',
+      image: "https://res.cloudinary.com/dbmjqp2dz/image/upload/v1753532557/d66be402-5bd3-4a9d-8ebb-90d94ef4c810_qh6mgz.jpg",
+      title: 'Career Support & Guidance',
+      description: 'We’re here to support your learning journey. Get help in setting goals, choosing your career path, and understanding how to grow with real skills. ',
       bgGradient: 'from-pink-500 to-orange-500'
     },
     {
-      image: productivityImage,
+      image: "https://res.cloudinary.com/dbmjqp2dz/image/upload/v1753532556/Flexible_Productive_illustartion_arsrmi.jpg",
       title: 'Flexible & Productive',
       description: 'Learn at your own pace with structured programs designed for maximum productivity and growth.',
       bgGradient: 'from-purple-500 to-indigo-500'

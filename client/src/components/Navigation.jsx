@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'wouter';
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [location] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,18 +32,20 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">iGlowLife</h1>
+              <Link href="/" >
+                <img src="https://res.cloudinary.com/dbmjqp2dz/image/upload/v1753531698/logo_ijhc0j.png" alt="iGlowLife Logo" className="h-14 w-auto" />
+              </Link>
             </div>
           </div>
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <button 
-                onClick={() => scrollToSection('home')}
-                className="text-dark hover:text-primary transition-colors duration-200 font-medium"
+              <Link 
+                href="/"
+                className={location === '/' ? "text-primary font-medium" : "text-gray-600 hover:text-primary transition-colors duration-200 font-medium"}
               >
                 Home
-              </button>
+              </Link>
               <button 
                 onClick={() => scrollToSection('about')}
                 className="text-gray-600 hover:text-primary transition-colors duration-200 font-medium"
@@ -52,7 +56,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection('benefits')}
                 className="text-gray-600 hover:text-primary transition-colors duration-200 font-medium"
               >
-                Benefits
+                What We Offer
               </button>
               <button 
                 onClick={() => scrollToSection('trainers')}
@@ -66,19 +70,21 @@ export default function Navigation() {
               >
                 How It Works
               </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
+              <Link 
+                href="/"
                 className="text-gray-600 hover:text-primary transition-colors duration-200 font-medium"
               >
                 Contact
-              </button>
+              </Link>
             </div>
           </div>
           
           <div className="hidden md:block">
+            <Link href="/interest" >
             <button className="bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium">
-              Get Started
+              Express Your Interest
             </button>
+            </Link>
           </div>
           
           <div className="md:hidden">

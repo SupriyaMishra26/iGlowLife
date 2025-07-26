@@ -28,11 +28,12 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Section</h4>
             <ul className="space-y-2">
+                            <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Home</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">About Us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Benefits</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Trainers</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Blog</a></li>
+
             </ul>
           </div>
         </div>

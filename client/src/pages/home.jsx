@@ -5,7 +5,7 @@ import About from '@/components/About';
 import Benefits from '@/components/Benefits';
 import Trainers from '@/components/Trainers';
 import HowItWorks from '@/components/HowItWorks';
-import Interest from '../components/Interest'
+import Interest from '@/components/Interest'
 // import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
